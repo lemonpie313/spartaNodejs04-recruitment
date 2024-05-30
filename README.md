@@ -11,31 +11,6 @@ https://drawsql.app/teams/own-64/diagrams/spartanodejs04-resume
 ## 프로젝트 소개
 express.js, mySQL을 이용하여 채용 서비스 백엔드 서버를 구현하여 이력서 작성, 조회, 수정, 삭제가 가능하도록 하였다.
 
-### 서버 사용을 위한 사용자 정보 설명
-#### 1) 채용 담당자
-- email : admin@naver.com
-- password : 000000
-
-#### 2) 지원자 1
-- email : aaaan@naver.com
-- password : 000000
-
-#### 3) 지원자 2
-- email : bbbb@naver.com
-- password : 000000
-
-#### 4) 지원자 3
-- email : cccc@naver.com
-- password : 000000
-
-#### 5) 지원자 4
-- email : dddd@naver.com
-- password : 000000
-
-#### 6) 지원자 5
-- email : eeee@naver.com
-- password : 000000
-
 ## 코드 설명
 회원가입과 로그인을 제외한 모든 기능은 로그인 된 사용자(AccessToken 보유)에 한해 접근 가능하다.
 ### 1. 미들웨어
